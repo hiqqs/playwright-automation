@@ -23,7 +23,7 @@ jobs:
         /bin/bash ./node_modules/releasetrain/scripts/cutRelease.sh
         cd ./node_modules/releasetrain && npm run releaseTrain-notify
       env:
-        RELEASE_VERSION: ${{ vars.RELEASE_VERSION }}
+        RELEASE_VERSION: ${{ secrets.RELEASE_VERSION }}
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     - uses: actions/upload-artifact@v4
       if: always()
