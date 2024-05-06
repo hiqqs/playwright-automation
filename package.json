@@ -10,5 +10,8 @@
   },
   "scripts": {},
   "description": "playwright automation elite testing and utils",
-  "author": "John Ahigian"
+  "author": "John Ahigian",
+  "dependencies": {
+    "releasetrain": "^1.4.0"
+  }
 }
