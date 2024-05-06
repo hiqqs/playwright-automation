@@ -1,0 +1,14 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hiqqs/playwright-automation.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.8"
+  },
+  "scripts": {},
+  "description": "playwright automation elite testing and utils",
+  "author": "John Ahigian"
+}
